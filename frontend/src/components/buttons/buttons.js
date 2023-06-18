@@ -1,17 +1,27 @@
 import "./buttons.css";
 
-function Btn({route}) {
+function Btn({route, name}) {
     return (
-        <a className="btn" href={"/" + route.toLowerCase()}>{route}</a>
+        <a className="btn" href={route}>{name}</a>
     );
 }
-  
-function Buttons({routes=["Skills", "Certifications", "Projects"]}) {
+
+function GenerateButtons({buttons}) {
+    let generatedButtons = [];
+
+    for (let i = 0; i < buttons.length; i++) {
+        let name = buttons[i].name;
+        let route = buttons[i].route;
+        generatedButtons.push(<Btn key={i} route={route} name={name} />);
+    }
+
+    return generatedButtons;
+}
+
+function Buttons({buttons}) {
     return (
         <div className="buttons">
-        <Btn route={routes[0]} />
-        <Btn route={routes[1]} />
-        <Btn route={routes[2]} />
+            <GenerateButtons buttons={buttons}/>
         </div>
     );
 }
