@@ -1,6 +1,6 @@
 .name {
     font-family: monospace;
-    font-size: 50px;
+    font-size: clamp(32px, 8vw, 50px);
     color: white;
     margin: 3px;
 }

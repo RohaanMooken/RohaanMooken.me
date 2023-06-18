@@ -27,7 +27,6 @@ class AxiosAPI extends React.Component {
     return (
       <div className="cardContainer">
         {this.state.details.map((output, id) => (
-          <div>
             <div key={id}>
               <div className="card">
                 <div className="card-body">
@@ -39,19 +38,10 @@ class AxiosAPI extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
         ))}
       </div>
     )
   }
-}
-
-function CardContainer() {
-  return (
-    <div>
-      <AxiosAPI />
-    </div>
-  );
 }
 
 function Skills() {
@@ -71,7 +61,7 @@ function Skills() {
           lastName={lastName} urls={urls} 
           buttons={buttons}
         />
-        <CardContainer />
+        <AxiosAPI />
       </div>
     </>
   );
