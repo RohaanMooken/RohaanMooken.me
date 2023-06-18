@@ -1,0 +1,23 @@
+.btn {
+    color: white;
+    border-color: var(--color-primary-200);
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn:active {
+    color: gray;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end center;
+}
+
+.buttons > * + * {
+    margin-top: 10px;
+}

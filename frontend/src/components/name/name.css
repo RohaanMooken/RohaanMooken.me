@@ -1,0 +1,13 @@
+.name {
+    font-family: monospace;
+    font-size: 50px;
+    color: white;
+    margin: 3px;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}

@@ -1,0 +1,11 @@
+.container {
+    background-color: var(--color-surface-100);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 4px var(--color-primary-200);
+    margin: 10px;
+    overflow: auto;
+    max-height: 150px;
+    display: grid;
+    grid: "name social buttons";
+    width: 100vw;
+}
