@@ -30,7 +30,7 @@ function GenerateSocials({urls}) {
   for (let i = 0; i < urls.length; i++) {
     let domainName = urls[i].domainName;
     let url = urls[i].url;
-    generatedSocials.push(<Social domainName={domainName} url={url} />);
+    generatedSocials.push(<Social key={i} domainName={domainName} url={url} />);
   }
 
   return generatedSocials;

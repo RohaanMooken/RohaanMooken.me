@@ -11,7 +11,7 @@ function GenerateButtons({buttons}) {
 
     for (let i = 0; i < buttons.length; i++) {
         let name = buttons[i].name;
-        let route = buttons[i].route;
+        let route = buttons[i].url;
         generatedButtons.push(<Btn key={i} route={route} name={name} />);
     }
 

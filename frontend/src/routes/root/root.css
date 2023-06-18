@@ -15,9 +15,22 @@
     --color-surface-600:  #8b8b8b;
 }
 
+.intro {
+    color: white;
+    margin-top: 1vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    height: 100%;
+}
+
+.ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+}
+
 body {
     background-color: var(--color-surface-100);
-    display: grid;
-    grid: "container";
-    place-items: center;
 }
