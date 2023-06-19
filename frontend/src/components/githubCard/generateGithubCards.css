@@ -1,3 +1,23 @@
+@media (max-width: 320px), (max-width: 375px), (max-width: 425px){
+    .githubCards {
+        grid-template-columns: auto !important;
+    }
+}
+
+@media (max-width: 768px){
+    .githubCards {
+        grid-template-columns: auto auto !important;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .githubCards {
+        grid-template-columns: auto auto !important;
+    }
+
+}
+
 .githubCards {
     margin-top: 25px;
     display: grid;

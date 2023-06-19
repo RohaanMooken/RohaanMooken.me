@@ -13,15 +13,6 @@ class GenerateGithubCards extends React.Component {
     }
 
     componentDidMount() {
-        // let repos = await Axios.get("https://api.github.com/users/rohaanmooken/repos");
-        // repos = repos["data"];
-        // let checkedRepos = []
-        // for (let i = 0; i < repos.length; i++) {
-        //     checkedRepos[i] = {};
-        //     checkedRepos[i]["title"] = repos[i]["name"];
-        //     checkedRepos[i]["description"] = repos[i]["description"];
-        // }
-
         Axios.get("https://api.github.com/users/rohaanmooken/repos").then(res => {
             var data = res.data
             this.setState({data: data})

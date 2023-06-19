@@ -3,6 +3,11 @@
 }
 
 .link {
-    /* text-decoration: none; */
-    color: white;
+    text-decoration: none;
+    color: var(--color-primary-500);
+    margin-left: 10px;
+}
+
+.linkIcon {
+    color: var(--color-primary-500)
 }

@@ -1,7 +1,7 @@
 .container {
-    background-color: var(--color-surface-100);
+    /* background-color: var(--color-surface-100); */
     border-radius: 5px;
-    box-shadow: 2px 2px 5px 4px var(--color-primary-200);
+    box-shadow: 2px 2px 5px 4px var(--color-primary-400);
     margin: 10px;
     max-height: fit-content;
     display: grid;

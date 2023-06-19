@@ -1,0 +1,25 @@
+:root {
+    /** CSS DARK THEME PRIMARY COLORS */
+    --color-primary-100:  #00ff04;
+    --color-primary-200:  #52ff40;
+    --color-primary-300:  #75ff5f;
+    --color-primary-400:  #8fff79;
+    --color-primary-500:  #a6ff90;
+    --color-primary-600:  #baffa7;
+    /** CSS DARK THEME SURFACE COLORS */
+    --color-surface-100:  #121212;
+    --color-surface-200:  #282828;
+    --color-surface-300:  #3f3f3f;
+    --color-surface-400:  #575757;
+    --color-surface-500:  #717171;
+    --color-surface-600:  #8b8b8b;
+    /** Change css styles based on screen's max width
+        pixel information taken from inspector in google chome*/
+    --breakpoint-mobile-s: 320px;
+    --breakpoint-mobile-m: 375px;
+    --breakpoint-mobile-l: 425px;
+    --breakpoint-mobile-tablet: 768px;
+    --breakpoint-laptop: 1024px;
+    --breakpoint-laptop-l: 1440px;
+    --breakpoint-4k: 2560px;
+}
