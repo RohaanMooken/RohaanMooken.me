@@ -3,7 +3,6 @@ import LanguageBar from '../languageBar/languageBar';
 import './githubCard.css';
 
 function GithubCard({repo, title, description}) {
-    console.log(repo.toString());
     return (
         <div className="card h-100" style={{width:"350px"}}>
             <div className="card-body">
