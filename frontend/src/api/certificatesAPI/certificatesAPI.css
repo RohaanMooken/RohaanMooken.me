@@ -1,0 +1,31 @@
+.linkIcon {
+  color: var(--color-primary-500);
+  }
+  
+.link {
+  text-decoration: none;
+  color: white !important;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  }
+
+.tdSecond {
+  text-align: center;
+}
+
+.tdThird {
+  text-align: end;
+}
+
+.table {
+  margin-top: 25px;
+  background-color: var(--color-surface-300) !important;
+  --bs-table-color: white;
+  --bs-table-bg: var(--color-surface-300);
+  --bs-table-border-color: var(--color-surface-500);
+  --bs-table-hover-color: white;
+  width: 80vw;
+  border-radius: 10px;
+  overflow: hidden;
+}

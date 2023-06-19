@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app.views import ReactView
+from app.views import SkillsView, CertificatesView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', ReactView.as_view(), name="ReactView")
+    path('skills/', SkillsView.as_view(), name="SkillsView"),
+    path('certificates/', CertificatesView.as_view(), name="CertificatesView"),
 ]

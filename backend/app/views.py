@@ -1,12 +1,9 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from . models import Skill
-from .serializer import ReactSerializer
+from . models import Skill, Certificate
 
 # Create your views here.
-class ReactView(APIView):
-    
-    serializer_class = ReactSerializer
+class SkillsView(APIView):
 
     def get(self, request):
         output = [
@@ -17,6 +14,21 @@ class ReactView(APIView):
                 "last_updated": output.last_updated.strftime("%d/%m/%Y %H:%M:%S"),
             }
             for output in Skill.objects.all()
+        ]
+        print(output)
+        return Response(output)
+
+
+class CertificatesView(APIView):
+
+    def get(self, request):
+        output = [
+            {
+                "certificate_name": output.certificate_name,
+                "certificate_origin": output.certificate_origin,
+                "certificate_issued": output.certificate_issued.strftime("%m/%Y"),
+            }
+            for output in Certificate.objects.all()
         ]
         print(output)
         return Response(output)

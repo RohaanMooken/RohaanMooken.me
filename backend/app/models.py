@@ -27,3 +27,13 @@ class Skill(models.Model):
 
     def __str__(self):
         return self.skill_name
+
+
+class Certificate(models.Model):
+
+    certificate_name = models.CharField(max_length=200)
+    certificate_origin = models.CharField(max_length=200)
+    certificate_issued = models.DateField("Date issued")
+
+    def __str__(self) -> str:
+        return self.certificate_name

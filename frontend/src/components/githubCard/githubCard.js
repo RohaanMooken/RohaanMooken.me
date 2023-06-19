@@ -7,7 +7,7 @@ function GithubCard({repo, title, description}) {
         <div className="card h-100" style={{width:"350px"}}>
             <div className="card-body">
                 <h5 className="card-title">
-                    <div>
+                    <div className='centerTitle'>
                         <Link className="linkIcon" size={30}/>
                         <a className="link" href={'https://github.com/' + repo}>{title}</a>
                     </div>

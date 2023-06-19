@@ -11,3 +11,7 @@
 .linkIcon {
     color: var(--color-primary-500)
 }
+
+.centerTitle{
+    display: flex;
+}

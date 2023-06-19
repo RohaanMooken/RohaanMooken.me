@@ -1,6 +1,7 @@
 import HeaderContainer from "../../components/headerContainer/headerContainer";
 import "./certifications.css";
 import data from "../../assets/certifications.json";
+import CertificatesAPI from "../../api/certificatesAPI/certificatesAPI";
 
 export default function Certifications() {
 
@@ -20,6 +21,9 @@ export default function Certifications() {
           lastName={lastName} urls={urls} 
           buttons={buttons}
         />
+        <div>
+          <CertificatesAPI />
+        </div>
       </div>
     </>
   );
