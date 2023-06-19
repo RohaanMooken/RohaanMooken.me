@@ -2,16 +2,14 @@
     font-size: 12px !important;
 }
 
-.link {
+.projectsLink {
     text-decoration: none;
     color: var(--color-primary-500);
-    margin-left: 10px;
-}
-
-.linkIcon {
-    color: var(--color-primary-500)
-}
-
-.centerTitle{
     display: flex;
+    align-items: center;
+}
+
+.projectsLinkIcon {
+    color: var(--color-primary-500);
+    margin-right: 10px;
 }
