@@ -4,7 +4,6 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from 'react-router-dom';
-// import './index.css';
 import Root from './routes/root/root';
 import ErrorPage from './pages/error-page';
 import Skills from './routes/skills/skills';

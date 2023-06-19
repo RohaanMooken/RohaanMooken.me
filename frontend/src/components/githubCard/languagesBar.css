@@ -1,0 +1,33 @@
+.languages-bar {
+    width: 100%;
+    height: 12px;
+    background-color: lightgray;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .language-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-name {
+    width: 100px;
+  }
+  
+  .language-bar {
+    width: 200px;
+    height: 8px;
+    background-color: lightgray;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .language-progress {
+    height: 100%;
+  }
+  
+  .language-percentage {
+    margin-left: 8px;
+  }
+  
