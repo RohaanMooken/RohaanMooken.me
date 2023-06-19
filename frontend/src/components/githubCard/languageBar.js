@@ -2600,7 +2600,7 @@ var colors$1 = /*#__PURE__*/Object.freeze({
     'default': colors
 });
 
-function GH(props) {
+function LanguageBar(props) {
     var _a = React__namespace.useState(), data = _a[0], setData = _a[1];
     React__namespace.useEffect(function () {
         function init() {
@@ -2693,5 +2693,5 @@ function GH(props) {
         return null;
 }
 
-exports.default = GH;
+exports.default = LanguageBar;
 //# sourceMappingURL=index.js.map

@@ -1,5 +1,4 @@
-// import LanguagesBar from './languagesBar';
-import GH from './gh';
+import LanguageBar from './languageBar';
 import './githubCard.css';
 
 function GithubCard({owner, repo, title, description}) {
@@ -7,13 +6,13 @@ function GithubCard({owner, repo, title, description}) {
     return (
         <div className="card">
             <div className="card-body">
-                <h5 className="card-title">{title}</h5>
+                <h5 className="card-title">
+                    <a className="link" href={'https://github.com/' + repo}>{title}</a>
+                </h5>
                 <p className="card-text">{description}</p>
             </div>
             <div className="card-footer">
-                {/* <small className="text-muted">Footer</small> */}
-                {/* <LanguagesBar owner={owner} repo={repo}/> */}
-                <GH 
+                <LanguageBar
                     repository={repo}
                     width={300}
                     textColor='white'
