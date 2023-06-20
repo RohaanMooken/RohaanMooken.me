@@ -18,15 +18,18 @@ const router = createBrowserRouter([
     },
     {
         path: "/skills",
-        element: <Skills />
+        element: <Skills />,
+        errorElement: <ErrorPage />,
     },
     {
         path: "/certificates",
-        element: <Certificates />
+        element: <Certificates />,
+        errorElement: <ErrorPage />,
     },
     {
         path: "/projects",
-        element: <Projects />
+        element: <Projects />,
+        errorElement: <ErrorPage />,
     }
 ]);
 

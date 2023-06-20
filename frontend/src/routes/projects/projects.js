@@ -8,7 +8,6 @@ export default function Projects() {
   let firstName = data.firstName;
   let middleName = data.middleName;
   let lastName = data.lastName;
-  let urls = data.urls;
   let buttons = data.buttons;
 
 
@@ -18,7 +17,7 @@ export default function Projects() {
         <HeaderContainer 
           firstName={firstName} 
           middleName={middleName} 
-          lastName={lastName} urls={urls} 
+          lastName={lastName}
           buttons={buttons}
         />
         <GenerateGithubCards />

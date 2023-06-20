@@ -22,8 +22,8 @@ class Skill(models.Model):
         choices=SKILL_LEVEL_CHOICES,
         default=BEGINNER,
     )
-    pub_date = models.DateTimeField("date published")
-    last_updated = models.DateTimeField("last updated")
+    pub_date = models.DateTimeField("date published", default=time)
+    last_updated = models.DateTimeField("last updated", default=time)
 
     def __str__(self):
         return self.skill_name

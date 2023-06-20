@@ -15,7 +15,6 @@ class SkillsView(APIView):
             }
             for output in Skill.objects.all()
         ]
-        print(output)
         return Response(output)
 
 
@@ -30,5 +29,4 @@ class CertificatesView(APIView):
             }
             for output in Certificate.objects.all()
         ]
-        print(output)
         return Response(output)

@@ -1,15 +1,15 @@
 {
-    "firstName": "Skills",
+    "firstName": "Certificates",
     "middleName": "",
     "lastName": "",
     "buttons": [
         {
-            "name": "Home",
-            "url": "/"
+            "name": "Skills",
+            "url": "/skills"
         },
         {
-            "name": "Certificates",
-            "url": "/certificates"
+            "name": "Home",
+            "url": "/"
         },
         {
             "name": "Projects",

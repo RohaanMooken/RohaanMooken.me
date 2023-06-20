@@ -1,6 +1,6 @@
 import HeaderContainer from "../../components/headerContainer/headerContainer";
 import "./certificates.css";
-import data from "../../assets/certifications.json";
+import data from "../../assets/certificates.json";
 import CertificatesAPI from "../../api/certificatesAPI/certificatesAPI";
 
 export default function Certificates() {
@@ -8,7 +8,6 @@ export default function Certificates() {
   let firstName = data.firstName;
   let middleName = data.middleName;
   let lastName = data.lastName;
-  let urls = data.urls;
   let buttons = data.buttons;
 
 
@@ -18,7 +17,7 @@ export default function Certificates() {
         <HeaderContainer 
           firstName={firstName} 
           middleName={middleName} 
-          lastName={lastName} urls={urls} 
+          lastName={lastName}
           buttons={buttons}
         />
         <div>

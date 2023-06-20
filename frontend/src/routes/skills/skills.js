@@ -8,7 +8,6 @@ function Skills() {
   let firstName = data.firstName;
   let middleName = data.middleName;
   let lastName = data.lastName;
-  let urls = data.urls;
   let buttons = data.buttons;
 
   return (
@@ -17,7 +16,7 @@ function Skills() {
         <HeaderContainer 
           firstName={firstName} 
           middleName={middleName} 
-          lastName={lastName} urls={urls} 
+          lastName={lastName}
           buttons={buttons}
         />
         <div className="row row-cols-1 row-cols-md-2 g-4" style={{marginBottom: "25px"}}>
