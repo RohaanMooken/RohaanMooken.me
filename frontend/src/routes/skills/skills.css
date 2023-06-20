@@ -23,6 +23,14 @@
     color: white;
 }
 
+.levelCard {
+    width: 30vw;
+}
+
 .text-muted {
     color: gray !important;
+}
+
+.col {
+    margin-top: 45px;
 }

@@ -1,9 +1,9 @@
 import HeaderContainer from "../../components/headerContainer/headerContainer";
-import "./certifications.css";
+import "./certificates.css";
 import data from "../../assets/certifications.json";
 import CertificatesAPI from "../../api/certificatesAPI/certificatesAPI";
 
-export default function Certifications() {
+export default function Certificates() {
 
   let firstName = data.firstName;
   let middleName = data.middleName;

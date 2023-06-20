@@ -21,7 +21,7 @@ function Root() {
           lastName={lastName} 
           buttons={buttons}
         />
-        <p className="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla ac ex at suscipit. Cras neque nunc, tristique sit amet ultrices tempor, tempus ac tellus. Vestibulum quis consequat sem. Integer ut tortor libero. Maecenas malesuada sapien in ligula venenatis, vel rutrum felis pretium. Nulla nec mi auctor, pulvinar magna ac, euismod tortor. Donec luctus metus massa, vel pretium diam sodales non. Integer nibh nunc, varius ac est ut, tristique hendrerit urna. Phasellus suscipit justo non lectus bibendum suscipit. Nulla at sem cursus, rutrum risus ut, placerat dolor. Nam vel eros cursus, imperdiet tortor nec, tristique lorem. Ut sed lorem ullamcorper, convallis sem sit amet, sagittis risus. Proin at nisi ligula. Cras cursus quam eget sem gravida imperdiet.</p>
+        <p className="intro">I am an aspiring developer looking to further develop my skills and knowledge. Currently am attending the CS50 course from Harvard University to enhance my knowledge on computer science. Through this course, I am delving into a wide range of topics, including programming languages, algoritgms, data structures, and problem-solving techniques. I believe that contineous learning and self-improvement are essential in a rapidly evolving industry like software development.</p>
         <FooterContainer 
           urls={urls} 
         />
