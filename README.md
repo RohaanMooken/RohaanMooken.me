@@ -23,10 +23,10 @@ Not in use
 ### settings.py
 
 #### Changes
-    + [Added *app*, *rest_framwork* and *corsheaders* to INSTALLED_APPS](backend/backend/settings.py)
-    + [Added *REST_FRAMEWORK = {"DEFAULT_PERMISSION_CLASES": ["rest_framework.permissions.AllowAny"]}*](backend/backend/settings.py)
-    + [Added *CORS_ORIGIN_ALLOW_ALL = True*](backend/backend/settings.py)
-    + [Changed *TIME_ZONE = "America/Chicago"* to *TIME_ZONE = 'Europe/Oslo'*](backend/backend/settings.py)
++ [Added *app*, *rest_framwork* and *corsheaders* to INSTALLED_APPS](backend/backend/settings.py)
++ [Added *REST_FRAMEWORK = {"DEFAULT_PERMISSION_CLASES": ["rest_framework.permissions.AllowAny"]}*](backend/backend/settings.py)
++ [Added *CORS_ORIGIN_ALLOW_ALL = True*](backend/backend/settings.py)
++ [Changed *TIME_ZONE = "America/Chicago"* to *TIME_ZONE = 'Europe/Oslo'*](backend/backend/settings.py)
 
 ### urls.py
 
